@@ -1,4 +1,3 @@
-# resilient-circuits
 <h1>Supported tags and respective Docker hub link: </h1>
 <ul>
 <li><a href="https://hub.docker.com/repository/docker/tuverentetil/resilient-circuits"><code>tuverentetil/resilient-circuits:latest</code></a></li>

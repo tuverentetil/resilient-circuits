@@ -10,7 +10,7 @@ Contains:<br>
 <li>resilient-lib <a href="https://pypi.org/project/resilient-lib/"><code>resilient-lib 35.0.203</code></a></li>
 <li>pytest-resilient-circuits <a href="https://pypi.org/project/pytest-resilient-circuits/"><code>pytest-resilient-circuits 35.0.203</code></a></li>
 </ul>
-I will not run without resilient server nither will example config will not connect to anything.<br>
+It will not run without resilient server nither will example config will not connect to anything.<br>
 Default folder for app.config is /home/resilient/.resilient/ and it have to be replaced with correct configuration for IBM Resilient server and installed integrations.<br>
 This is base image but can be ran for test:<br>
 Start container:<br>

@@ -1,0 +1,6 @@
+keyring==7.2
+resilient
+resilient_circuits
+resilient_lib
+pytest_resilient_circuits
+pyyaml

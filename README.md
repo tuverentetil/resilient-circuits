@@ -1,7 +1,7 @@
 # resilient-circuits
-<h1>Supported tags and respective Dockerfile links: </h1>
+<h1>Supported tags and respective Docker hub link: </h1>
 <ul>
-<li><a href="https://github.com/tuverentetil/resilient-circuits/blob/master/Dockerfile"><code>latest</code>,<code>35</code></a></li>
+<li><a href="https://hub.docker.com/repository/docker/tuverentetil/resilient-circuits"><code>tuverentetil/resilient-circuits:latest</code></a></li>
 </ul>
 <h1>IBM resilient-circuits python base image. </h1>
 Contains:<br>

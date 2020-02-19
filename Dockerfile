@@ -14,6 +14,7 @@ COPY --from=builder /wheel /tmp/wheel
 RUN pip install --no-index --find-links /tmp/wheel -r /tmp/wheel/requirements.txt && rm -rf /tmp/wheel
 COPY app.config /home/resilient/.resilient/
 RUN mkdir /home/resilient/logs/ && chown -R resilient:resilient /home/resilient
+ENV APP_LOCK_FILE=/tmp/resilient.lock
 USER resilient
 
 CMD resilient-circuits run

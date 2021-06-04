@@ -5,10 +5,11 @@
 <h1>IBM resilient-circuits python base image. </h1>
 Contains:<br>
 <ul>
-<li>resilient <a href="https://pypi.org/project/resilient/"><code>resilient 35.0.203</code></a></li>
-<li>resilient-circuits <a href="https://pypi.org/project/resilient-circuits/"><code>resilient-circuits 35.0.203</code></a></li>
-<li>resilient-lib <a href="https://pypi.org/project/resilient-lib/"><code>resilient-lib 35.0.203</code></a></li>
-<li>pytest-resilient-circuits <a href="https://pypi.org/project/pytest-resilient-circuits/"><code>pytest-resilient-circuits 35.0.203</code></a></li>
+<li>resilient <a href="https://pypi.org/project/resilient/"><code>resilient 41.0.1976</code></a></li>
+<li>resilient-circuits <a href="https://pypi.org/project/resilient-circuits/"><code>resilient-circuits 41.0.1976</code></a></li>
+<li>resilient-lib <a href="https://pypi.org/project/resilient-lib/"><code>resilient-lib 41.0.1976</code></a></li>
+<li>resilient-lib <a href="https://pypi.org/project/resilient-lib/"><code>resilient-sdk 41.0.1976</code></a></li>
+<li>pytest-resilient-circuits <a href="https://pypi.org/project/pytest-resilient-circuits/"><code>pytest-resilient-circuits 41.0.1976</code></a></li>
 </ul>
 It will not run without resilient server nither will example config will not connect to anything.<br>
 Default folder for app.config is /home/resilient/.resilient/ and it have to be replaced with correct configuration for IBM Resilient server and installed integrations.<br>

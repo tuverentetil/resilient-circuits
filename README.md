@@ -8,7 +8,7 @@ Contains:<br>
 <li>resilient <a href="https://pypi.org/project/resilient/"><code>resilient 41.0.1976</code></a></li>
 <li>resilient-circuits <a href="https://pypi.org/project/resilient-circuits/"><code>resilient-circuits 41.0.1976</code></a></li>
 <li>resilient-lib <a href="https://pypi.org/project/resilient-lib/"><code>resilient-lib 41.0.1976</code></a></li>
-<li>resilient-lib <a href="https://pypi.org/project/resilient-lib/"><code>resilient-sdk 41.0.1976</code></a></li>
+<li>resilient-sdk <a href="https://pypi.org/project/resilient-lib/"><code>resilient-sdk 41.0.1976</code></a></li>
 <li>pytest-resilient-circuits <a href="https://pypi.org/project/pytest-resilient-circuits/"><code>pytest-resilient-circuits 41.0.1976</code></a></li>
 </ul>
 It will not run without resilient server nither will example config will not connect to anything.<br>

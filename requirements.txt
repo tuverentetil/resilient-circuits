@@ -2,5 +2,6 @@ keyring
 resilient
 resilient_circuits
 resilient_lib
+resilient_sdk
 pytest_resilient_circuits
 pyyaml

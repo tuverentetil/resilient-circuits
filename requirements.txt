@@ -1,4 +1,4 @@
-keyring==7.2
+keyring
 resilient
 resilient_circuits
 resilient_lib

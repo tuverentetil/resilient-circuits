@@ -1,4 +1,4 @@
-FROM python:3.10.0b1-alpine3.13 as builder
+FROM python:3.9.5-alpine3.13 as builder
 ENV CRYPTOGRAPHY_DONT_BUILD_RUST=1
 RUN apk add --no-cache musl-dev linux-headers openssl-dev libffi-dev gcc python3-dev 
 RUN mkdir /wheel
@@ -7,7 +7,7 @@ COPY requirements.txt /wheel
 
 RUN pip install --upgrade pip && pip install wheel && pip wheel -r /wheel/requirements.txt -w /wheel
 
-FROM python:3.10.0b1-alpine3.13
+FROM python:3.9.5-alpine3.13
 
 RUN adduser -s /bin/sh -D resilient
 COPY --from=builder /wheel /tmp/wheel
